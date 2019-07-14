@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xfel</title>
+    <link>https://example.com/</link>
+    <description>Recent content on xfel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>android-env.el -&gt; My first Melpa pkg</title>
+      <link>https://example.com/posts/android-env/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://example.com/posts/android-env/</guid>
+      <description>I got published my first package to Melpa.
+android-env is a helper for those eager to do Android using Emacs. I know, is not the mainstream way to do it, but Emacs is my home.
+  Is a tiny little thing but it really helps me on my daily work. Thanks to Chris Rayner and Steve Purcell for being so helpful and guiding me into know a little about elisp standards.</description>
+    </item>
+    
+  </channel>
+</rss>
