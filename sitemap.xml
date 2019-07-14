@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/about/</loc>
+    <loc>https://fernando-jascovich.github.io/about/</loc>
     <lastmod>2019-07-14T00:36:11-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/android-env/</loc>
+    <loc>https://fernando-jascovich.github.io/posts/android-env/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://fernando-jascovich.github.io/posts/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/android/</loc>
+    <loc>https://fernando-jascovich.github.io/tags/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/emacs/</loc>
+    <loc>https://fernando-jascovich.github.io/tags/android/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/tags/melpa/</loc>
+    <loc>https://fernando-jascovich.github.io/tags/emacs/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://fernando-jascovich.github.io/tags/melpa/</loc>
+    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/</loc>
     <lastmod>2019-07-14T00:36:12-03:00</lastmod>
     <priority>0</priority>
   </url>
