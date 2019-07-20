@@ -6,10 +6,37 @@
     <description>Recent content in Tags on xfel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2019 00:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://fernando-jascovich.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>keyboard</title>
+      <link>https://fernando-jascovich.github.io/tags/keyboard/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/keyboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>minidox</title>
+      <link>https://fernando-jascovich.github.io/tags/minidox/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/minidox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>qmk</title>
+      <link>https://fernando-jascovich.github.io/tags/qmk/</link>
+      <pubDate>Fri, 19 Jul 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/qmk/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>

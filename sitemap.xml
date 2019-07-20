@@ -4,47 +4,70 @@
   
   <url>
     <loc>https://fernando-jascovich.github.io/about/</loc>
-    <lastmod>2019-07-14T00:36:11-03:00</lastmod>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/posts/building-a-minidox/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/posts/android-env/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/posts/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/tags/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fernando-jascovich.github.io/tags/android/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <loc>https://fernando-jascovich.github.io/tags/keyboard/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fernando-jascovich.github.io/tags/emacs/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <loc>https://fernando-jascovich.github.io/tags/minidox/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://fernando-jascovich.github.io/tags/melpa/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <loc>https://fernando-jascovich.github.io/tags/qmk/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/</loc>
-    <lastmod>2019-07-14T00:36:12-03:00</lastmod>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/android/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/emacs/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/melpa/</loc>
+    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content='text/html; charset=utf-8' http-equiv='content-type' />
+
+  <title>Building a MiniDox - xfel</title>
+  <meta content='Building a MiniDox - xfel' property='title' />
+  <meta content='Building a MiniDox - xfel' property='og:title' />
+
+
+<meta property="og:description" content="I built my first mechanical keyboard, a MiniDox.
+  Motivation  It was easy? nope. I already had experience doing something similar? nope. I had even held a solder for one second before? nope. I knew somthing about keyboards before (besides using one, of course)? nope.  So&hellip; why? Well, to be completely honest, for fun mainly. I got my first comments about something called &ldquo;mechanical keyboard&rdquo; thanks to geekymartian, he built an ErgoDox and then others (two MiniDoxs and counting)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fernando-jascovich.github.io/posts/building-a-minidox/" />
+
+
+<meta property="article:published_time" content="2019-07-19T00:00:00-03:00"/>
+
+<meta property="article:modified_time" content="2019-07-20T13:57:19-03:00"/>
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.55.6" />
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
+<style type="text/css">/*https://coolors.co/afd5aa-f0f2ef-a69f98-3d3d3d-8c6057*/
+:root {
+  --main-color: #01579b;
+  --secondary-color: #260e04;
+  --logo-text-color: #fff;
+  --body-text-color: #3d3d3d;
+  --heading-text-color: #383838;
+  --background-color: #fff;
+}
+</style>
+<link href='/css/tachyons.min.css' rel="stylesheet">
+<link href='/css/styles.css' rel="stylesheet">
+
+
+<link rel="icon" 
+ 
+  href='/favicon.ico'
+
+type="image/x-icon"/>
+
+<link href='/feed.xml' rel="alternate" type="application/atom+xml" title="xfel" />
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-143766333-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+<body class="global-font">
+  <nav class=" flex  justify-between border-box pa3 pl3-l pr2-l mt1 mt0-ns" id="navbar">
+  <div class="flex">
+    <a class="f4 fw6 ttu no-underline dim bg-main-color pv1 ph2 br2" id="site-title" href='/' title="Home">xfel</a>
+  </div>
+  
+  <div class=" flex-grow  pv1">
+    
+      <a class="link dim dark-gray f6 dib mr2 mr3-l ttu tracked" href='/about' title="About">About</a>
+    
+      <a class="link dim dark-gray f6 dib mr2 mr3-l ttu tracked" href='/tags/' title="Tags">Tags</a>
+    
+  </div>
+  
+</nav>
+  
+<main class="center mv4 content-width ph3">
+  <div class="f3 fw6 heading-color heading-font post-title">Building a MiniDox</div>
+  <p class="silver f6 mt1 mb4 post-meta">
+    <time>19 Jul 2019</time> 
+     | 
+    
+    
+    tags: [ <a href='/tags/minidox' class="link silver">minidox</a> <a href='/tags/keyboard' class="link silver">keyboard</a> <a href='/tags/qmk' class="link silver">qmk</a>  ]
+    
+  </p>
+  <div class="lh-copy post-content">
+
+<p>I built my first mechanical keyboard, a <a href="https://github.com/That-Canadian/MiniDox%5FPCB">MiniDox</a>.</p>
+
+<figure>
+    <img src="assets/minidox-complete-01.jpg"/> 
+</figure>
+
+
+<hr />
+
+<h2 id="motivation">Motivation</h2>
+
+<ul>
+<li>It was easy? nope.</li>
+<li>I already had experience doing something similar? nope.</li>
+<li>I had even held a solder for one second before? nope.</li>
+<li>I knew somthing about keyboards before (besides using one, of course)? nope.</li>
+</ul>
+
+<p>So&hellip; why?
+Well, to be completely honest, for fun mainly. I got my first comments about something called &ldquo;mechanical keyboard&rdquo; thanks to <a href="https://github.com/bfagundez">geekymartian</a>, he built an <a href="https://www.ergodox.io/">ErgoDox</a> and then others (two MiniDoxs and counting).</p>
+
+<p>Then I started to read about it, about the tools involved, about an endless world of possibilities regarding key mappings and functions, about typing in a real more comfortable way.</p>
+
+<p>Another reason could be my &ldquo;<a href="https://en.wikipedia.org/wiki/Emacs#Emacs%5Fpinky">Emacs pinky</a>&rdquo;, now I have Ctrl and Alt right under my thumb.</p>
+
+<figure>
+    <img src="assets/laptop-ctrl.jpg"
+         alt="Figure 1: Here is a picture of my laptop&amp;rsquo;s keyboard which I think is self-explanatory about emacs-pinkyness"/> <figcaption>
+            <p>Figure 1: Here is a picture of my laptop&rsquo;s keyboard which I think is self-explanatory about emacs-pinkyness</p>
+        </figcaption>
+</figure>
+
+
+<p>It was after started building it when I realized the power behind being able to program your own keyboard.</p>
+
+<hr />
+
+<h2 id="gathering-things-togheter">Gathering things togheter</h2>
+
+<p>For building this keyboard I need two sets of things: tools and pieces. I had nothing, so after several thoughtful advices from <a href="https://github.com/bfagundez">geekymartian</a>, I went shopping:</p>
+
+<h3 id="tools">Tools</h3>
+
+<figure>
+    <img src="assets/lab.jpg"
+         alt="Figure 2: My &amp;ldquo;lab&amp;rdquo;"/> <figcaption>
+            <p>Figure 2: My &ldquo;lab&rdquo;</p>
+        </figcaption>
+</figure>
+
+
+<ul>
+<li>Soldering station with adjustable temperature ~40W</li>
+<li>Rosin core solder 0.5mm</li>
+<li>Soldering paste: for soldering smd diodes</li>
+<li>Syringe with needle: for putting soldering paste right on the required place.</li>
+<li>Desoldering wick: life saver</li>
+<li>Magnifying glass with tweezers</li>
+<li>Anti-static tweezers kit for electronics</li>
+<li>Toothpicks: for holding smd diodes before solder its first contact</li>
+<li>Isopropyl alcohol: for cleaning pcb</li>
+<li>Multimeter with diode test capabilities: You&rsquo;ll want to measure every soldered diode just after soldering it.</li>
+</ul>
+
+<h3 id="pieces">Pieces</h3>
+
+<p>I bought <a href="https://shop.profetkeyboards.com/product/minidox-pcb-set">PCB</a> and <a href="https://shop.profetkeyboards.com/product/minidox-pcb-set">electronic components</a> from <a href="https://shop.profetkeyboards.com/">Profet</a>, but this is the list of required components:</p>
+
+<ul>
+<li>PCB or hand-wire</li>
+<li>2 ProMicros: atmega32u4</li>
+<li>2 Switches for reset</li>
+<li>2 TRRS ports</li>
+<li>36 diodes: it could be smd (SOD 123) or through-hole (1N4148)</li>
+<li>36 key switches: I used <a href="https://www.switchtop.com/product/gateron-switches">Gateron Brown</a></li>
+<li>36 key caps: In my case, Cherry compatible</li>
+<li>Mount plate and case: I printed <a href="https://github.com/fernando-jascovich/minidox-case">this model</a> (but, warning! see below)</li>
+<li>TRRS male-to-male cable</li>
+</ul>
+
+<hr />
+
+<h2 id="getting-your-hands-dirty">Getting your hands dirty</h2>
+
+<p>I was able to build a MiniDox thanks to <a href="https://imgur.com/a/vImo6">this great and detailed building guide</a>.
+Besides all the comments present in that guide, I could add the following tips:</p>
+
+<ul>
+<li><p>For a newbie like me:
+You need to moisten your soldering sponge for cleaning your solder tip. Otherwise, it will be burned by the tip.</p></li>
+
+<li><p>For soldering diodes:
+<a href="https://www.youtube.com/watch?v=Jpj3tilIaik">This video</a> and <a href="https://www.youtube.com/watch?v=pzhBj1imgrk">this another one</a> are great. I personally found that holding smd diodes with toohpicks was much easier than using tweezers.</p></li>
+</ul>
+
+<figure>
+    <img src="assets/minidox-building-01.jpg"
+         alt="Figure 3: Mouting reset button"/> <figcaption>
+            <p>Figure 3: Mouting reset button</p>
+        </figcaption>
+</figure>
+
+
+<figure>
+    <img src="assets/minidox-building-02.jpg"
+         alt="Figure 4: Soldering first key switches"/> <figcaption>
+            <p>Figure 4: Soldering first key switches</p>
+        </figcaption>
+</figure>
+
+
+<figure>
+    <img src="assets/minidox-building-03.jpg"
+         alt="Figure 5: ProMicro mount"/> <figcaption>
+            <p>Figure 5: ProMicro mount</p>
+        </figcaption>
+</figure>
+
+
+<h3 id="oops">Oops</h3>
+
+<p>Not everything is soldering and roses, after putting my keyboard together I had the following issues:</p>
+
+<ul>
+<li><p>Some keys from right hand started to malfunction. When I pressed a key from second row, all that row was sended as input. It happens that my plate (the one on which keyswitches are laid) <a href="https://github.com/fernando-jascovich/minidox-case/issues/2">is too thick</a> and this causes some PCB bending, which produces this kind of malfunctioning. I fixed this by putting some supports (cardboard) between plate and pcb for avoiding bending.</p></li>
+
+<li><p>First column on right made weird things too, sometimes no keystroke was registered. I took me a while to discover this but, finally, I detected (by using a multimeter) that part of the column keystrokes weren&rsquo;t reaching ProMicro&rsquo;s pin. So, a bridge fixed this problem.</p></li>
+</ul>
+
+<figure>
+    <img src="assets/minidox-bridge.jpg"
+         alt="Figure 6: Brige to pin"/> <figcaption>
+            <p>Figure 6: Brige to pin</p>
+        </figcaption>
+</figure>
+
+
+<ul>
+<li>An intermittently dead key. This was caused by a bad swich, just replacing it fixed the problem (note here, buy a couple more key switches just in case).</li>
+</ul>
+
+<hr />
+
+<h2 id="firmware">Firmware</h2>
+
+<p>After finishing both sides, you have to install firmware. There are a couple of options around, I only used <a href="https://qmk.fm/">qmk</a>, it comes with a <a href="https://github.com/qmk/qmk%5Ffirmware/blob/master/Dockerfile">docker environment</a> which works perfectly (yes, you have to run it in privileged mode):</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">KEYBOARD<span style="color:#f92672">=</span>minidox
+KEYMAP<span style="color:#f92672">=</span>example
+
+docker run -ti --privileged <span style="color:#ae81ff">\\</span>
+       -v /dev:/dev <span style="color:#ae81ff">\\</span>
+       -v <span style="color:#e6db74">&#34;</span>$PWD<span style="color:#e6db74">&#34;</span>:/qmk<span style="color:#ae81ff">\_</span>firmware <span style="color:#ae81ff">\\</span>
+       qmk-build make <span style="color:#e6db74">&#34;</span>$KEYBOARD<span style="color:#e6db74">&#34;</span>:<span style="color:#e6db74">&#34;</span>$KEYMAP<span style="color:#e6db74">&#34;</span>:avrdude</code></pre></div>
+
+<p>With qmk there are a lot of posibilities and tweaks available for every key on your keyboard. This is my <a href="https://github.com/fernando-jascovich/qmk%5Ffirmware/tree/fernando-jascovich%5Fminidox%5Flayout/keyboards/minidox/keymaps/fernando%5Fjascovich">current keymap</a> for reference, but I think that this is a really personal thing. For example, I wanted to have ctrl in my thumb mainly because I&rsquo;m a Emacs user, I doubt that a vimmer would have the same requirement.</p>
+
+<hr />
+
+<h2 id="using-it">Using it</h2>
+
+<p>It took me a couple of months to being able to write decently with this keyboard, it was my first time with a split keyboard. My fingers had to discover where were the keys, but now is my daily driver, is one of my main tools for working every day.</p>
+
+<p>Once you get your hands in the keyboard, there no way back, I feel &ldquo;at home&rdquo; now with my MiniDox. I&rsquo;m even planning to hand-wire me a little variation of it. It is really incredible how efficient could this 36 keys be, I&rsquo;m really grateful to <a href="https://github.com/That-Canadian">That-Canadian</a> for this excellent design, is a magnificent work which improved greatly my relationship with computers.</p>
+</div>
+</main>
+ 
+
+
+
+
+
+
+<div class="tl fixed list-pages lh-copy" id="contents-list"></div>
+
+
+
+<div class="pagination tc tr-l db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+  
+<a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
+<br>
+  <p class="mb0 mt2">
+  <a href="https://fernando-jascovich.github.io/posts/android-env/">prev post</a>
+  
+  </p>
+</div>
+
+  <footer class="content-width mt0 mt5-l mb4 f6 center ph3 gray tc tl-l">
+    <hr class="dn db-l ml0-l gray w3"><br>
+    Powered by <a href="https://gohugo.io/" target="_blank" class="link gray dim">Hugo</a>, based on the <a href="https://github.com/lingxz/er" target="_blank" class="link gray dim">Er</a> theme. <br>
+    Running on <a href="https://pages.github.com/" taget="_blank" class="link gray dim">github pages</a>.<br>
+    <a href="mailto:fernando.ej@gmail.com" class="link main-color">fernando.ej@gmail.com</a><br>
+    <a href="https://github.com/fernando-jascovich/" target="_blank" class="link gray dim">github</a><br>
+    <a href="https://www.linkedin.com/in/fernandojascovich/" target="_blank" class="link gray dim">linkedin</a><br>
+    <a href="https://keybase.io/fjascovich" target="_blank" class="link gray dim">keybase</a><br>
+    
+</footer>
+
+  
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+<style>.is-active-link::before { background-color: var(--secondary-color); }</style>
+
+
+
+
+<script type="text/javascript">
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+
+  
+  if (document.getElementById("tag-cloud") !== null) { 
+    if (prevScrollpos > currentScrollPos) { 
+      document.getElementById("tag-cloud").style.visibility = "visible";
+      document.getElementById("tag-cloud").style.opacity = "1";
+    } else {
+      document.getElementById("tag-cloud").style.visibility = "hidden";
+      document.getElementById("tag-cloud").style.opacity = "0";
+    }
+  }
+  
+
+  
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+      document.getElementById("scroll-to-top").style.display = "inline";
+      document.getElementById("scroll-to-top").style.visibility = "visible";
+      document.getElementById("scroll-to-top").style.opacity = "1";
+  } else {
+      document.getElementById("scroll-to-top").style.visibility = "hidden";
+      document.getElementById("scroll-to-top").style.opacity = "0";
+  }
+  
+  prevScrollpos = currentScrollPos;
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
+}
+
+
+
+
+
+
+if (document.getElementById("contents-list") !== null && document.getElementsByClassName("post-content").length !== 0) { 
+  tocbot.init({
+    
+    tocSelector: '#contents-list',
+    
+    contentSelector: '.post-content',
+    
+    headingSelector: 'h1, h2, h3',
+  });
+}
+
+
+</script>
+
+
+
+
+</body>
+</html>
