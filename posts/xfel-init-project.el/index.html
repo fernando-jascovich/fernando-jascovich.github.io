@@ -4,17 +4,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 
-  <title>Tags - xfel</title>
-  <meta content='Tags - xfel' property='title' />
-  <meta content='Tags - xfel' property='og:title' />
+  <title>xfel-init-project.el - xfel</title>
+  <meta content='xfel-init-project.el - xfel' property='title' />
+  <meta content='xfel-init-project.el - xfel' property='og:title' />
 
 
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://fernando-jascovich.github.io/tags/" />
+<meta property="og:description" content="After trying some project management tools for emacs, I found several great and thorough packages which I used on a daily basis for software development:
+ Projectile Ivy  But then, after a while of using those great tools, I noticed that there are little functionality that I really use from those packages. And, as an excuse for exercising elisp, I decided to write some&hellip; let&rsquo;s say &ldquo;helpers&rdquo; for working every day." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fernando-jascovich.github.io/posts/xfel-init-project.el/" />
 
 
-<meta property="og:updated_time" content="2019-12-28T00:00:00-03:00"/>
+<meta property="article:published_time" content="2019-12-28T00:00:00-03:00"/>
+
+<meta property="article:modified_time" content="2019-12-28T15:40:49-03:00"/>
+
 
 
 
@@ -75,33 +79,54 @@ if (!doNotTrack) {
 </nav>
   
 <main class="center mv4 content-width ph3">
-  
-  <h1 class="f2 fw6 heading-font">Tags</h1>
-  
-  <ul class="list-pages list pl0">
+  <div class="f3 fw6 heading-color heading-font post-title">xfel-init-project.el</div>
+  <p class="silver f6 mt1 mb4 post-meta">
+    <time>28 Dec 2019</time> 
+     | 
     
-      <li class="lh-copy di bg-light-gray ph1"><a href="android" class="link f5">android&nbsp;(1)</a></li>
     
-      <li class="lh-copy di bg-light-gray ph1"><a href="emacs" class="link f5">emacs&nbsp;(2)</a></li>
+    tags: [ <a href='/tags/emacs' class="link silver">emacs</a> <a href='/tags/project' class="link silver">project</a> <a href='/tags/management' class="link silver">management</a>  ]
     
-      <li class="lh-copy di bg-light-gray ph1"><a href="keyboard" class="link f5">keyboard&nbsp;(1)</a></li>
-    
-      <li class="lh-copy di bg-light-gray ph1"><a href="management" class="link f5">management&nbsp;(1)</a></li>
-    
-      <li class="lh-copy di bg-light-gray ph1"><a href="melpa" class="link f5">melpa&nbsp;(1)</a></li>
-    
-      <li class="lh-copy di bg-light-gray ph1"><a href="minidox" class="link f5">minidox&nbsp;(1)</a></li>
-    
-      <li class="lh-copy di bg-light-gray ph1"><a href="project" class="link f5">project&nbsp;(1)</a></li>
-    
-      <li class="lh-copy di bg-light-gray ph1"><a href="qmk" class="link f5">qmk&nbsp;(1)</a></li>
-    
-  </ul>
+  </p>
+  <div class="lh-copy post-content"><p>After trying some project management tools for emacs, I found several great and thorough packages which I used on a daily basis for software development:</p>
+
+<ul>
+<li><a href="https://github.com/bbatsov/projectile">Projectile</a></li>
+<li><a href="https://github.com/abo-abo/swiper">Ivy</a></li>
+</ul>
+
+<p>But then, after a while of using those great tools, I noticed that there are little functionality that I really use from those packages. And, as an excuse for exercising elisp, I decided to write some&hellip; let&rsquo;s say &ldquo;helpers&rdquo; for working every day.</p>
+
+<p>This is the result: <a href="https://github.com/fernando-jascovich/dotfiles/blob/master/emacs/xfel-init-project.el">xfel-init-project.el</a>.</p>
+
+<p>As you can see, there are a few things that I use daily for working besides, of course, all the things that emacs has out-of-the-box. Ok, not all the things&hellip; who really knows all the things that emacs has inside?</p>
+
+<p>So, by relying on <a href="https://github.com/BurntSushi/ripgrep">rg</a> for getting file lists and searching inside those files, I wrote a super simple file finder and the inclusion of rg results inside `grep-find` (this function in particular because it produces a compile buffer with the ability of enabling <a href="http://github.com/mhayashi1120/Emacs-wgrep">wgrep</a> and having an excellent global search-and-replace thing).</p>
+
+<p>Other thing to mention is that I use ido, mainly because it comes with emacs, so I don&rsquo;t have to install any additional package for completion.</p>
+
+<p>I hope this helps someone looking for simple or personal alternatives for everyday tasks.</p>
+
+<p>P.S.: My configuration files are in the same repository -&gt; <a href="https://github.com/fernando-jascovich/dotfiles/blob/master/emacs/init.el">init.el</a></p>
+</div>
 </main>
-<div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+ 
 
+
+
+
+
+
+
+
+<div class="pagination tc tr-l db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+  
 <a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
-
+<br>
+  <p class="mb0 mt2">
+  
+  <a href="https://fernando-jascovich.github.io/posts/android-env/">next post</a>
+  </p>
 </div>
 
   <footer class="content-width mt0 mt5-l mb4 f6 center ph3 gray tc tl-l">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on xfel</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Posts on xfel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2019 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 00:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://fernando-jascovich.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -30,6 +30,16 @@
       <description>I got published my first package to Melpa.
 android-env is a helper for those eager to do Android using Emacs. I know, is not the mainstream way to do it, but Emacs is my home.
   Is a tiny little thing but it really helps me on my daily work. Thanks to Chris Rayner and Steve Purcell for being so helpful and guiding me into know a little about elisp standards.</description>
+    </item>
+    
+    <item>
+      <title>xfel-init-project.el</title>
+      <link>https://fernando-jascovich.github.io/posts/xfel-init-project.el/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/posts/xfel-init-project.el/</guid>
+      <description>After trying some project management tools for emacs, I found several great and thorough packages which I used on a daily basis for software development:
+ Projectile Ivy  But then, after a while of using those great tools, I noticed that there are little functionality that I really use from those packages. And, as an excuse for exercising elisp, I decided to write some&amp;hellip; let&amp;rsquo;s say &amp;ldquo;helpers&amp;rdquo; for working every day.</description>
     </item>
     
   </channel>

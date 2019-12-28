@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on xfel</title>
@@ -6,10 +6,37 @@
     <description>Recent content in Tags on xfel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jul 2019 00:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Dec 2019 00:00:00 -0300</lastBuildDate>
     
 	<atom:link href="https://fernando-jascovich.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>emacs</title>
+      <link>https://fernando-jascovich.github.io/tags/emacs/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>management</title>
+      <link>https://fernando-jascovich.github.io/tags/management/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://fernando-jascovich.github.io/tags/project/</link>
+      <pubDate>Sat, 28 Dec 2019 00:00:00 -0300</pubDate>
+      
+      <guid>https://fernando-jascovich.github.io/tags/project/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>keyboard</title>
@@ -44,15 +71,6 @@
       <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
       
       <guid>https://fernando-jascovich.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emacs</title>
-      <link>https://fernando-jascovich.github.io/tags/emacs/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 -0300</pubDate>
-      
-      <guid>https://fernando-jascovich.github.io/tags/emacs/</guid>
       <description></description>
     </item>
     

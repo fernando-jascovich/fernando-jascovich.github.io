@@ -1,74 +1,80 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://fernando-jascovich.github.io/about/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/posts/building-a-minidox/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/posts/android-env/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fernando-jascovich.github.io/posts/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/tags/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/tags/keyboard/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/tags/minidox/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/tags/qmk/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fernando-jascovich.github.io/tags/android/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
+    <loc>https://fernando-jascovich.github.io/posts/xfel-init-project.el/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/tags/emacs/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/management/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/posts/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/project/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/keyboard/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/minidox/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/qmk/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fernando-jascovich.github.io/tags/android/</loc>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://fernando-jascovich.github.io/tags/melpa/</loc>
-    <lastmod>2019-07-20T13:57:19-03:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-12-28T15:40:49-03:00</lastmod>
   </url>
   
 </urlset>
